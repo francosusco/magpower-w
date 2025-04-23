@@ -1,0 +1,53 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+header {
+  text-align: center;
+  background: #000;
+  color: #fff;
+  padding: 1rem 0;
+}
+header .logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+main section {
+  margin-bottom: 2rem;
+}
+.gallery .images {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.gallery img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.video video {
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.contact a {
+  color: #00cc66;
+}
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 1rem;
+  background: #eee;
+  margin-top: 2rem;
+}
